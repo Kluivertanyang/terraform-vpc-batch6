@@ -16,7 +16,7 @@ variable port {
 
 variable subnet {
     type = list(object( {
-    cidr = string
-    subnet_name = string
+        cidr = string
+        subnet_name = string
     }))
 }
