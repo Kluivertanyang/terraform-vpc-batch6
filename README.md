@@ -1,5 +1,5 @@
 # terraform-vpc-batch6
-
+```hcl
 module "batch6" {
     source = "Kluivertanyang/batch6/vpc"
     version = "2.0.0"
@@ -14,3 +14,4 @@ module "batch6" {
         { cdir = "10.0.3.0/24", subnet_name = "kaizen3" }
     ]
 }
+```
